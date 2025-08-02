@@ -13,11 +13,15 @@ import { Header } from './components/header/header';
     <router-outlet /> -->
 
     <app-header/>
-    <app-home/>
+    <main>
+      <app-home/>
+    </main>
+
+
   `,
   styles: [`
-    p {
-      background-color: blue;
+    main {
+      padding: 16px;
     }
     `],
 })
